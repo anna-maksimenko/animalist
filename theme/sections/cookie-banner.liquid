@@ -1,0 +1,38 @@
+{% include 'cookie-custom' %}
+
+{% schema %}
+{
+  "name": "Cookie banner",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show-cookie-banner",
+      "label": "Show cookie banner",
+      "info": "Enable/disable custom cookie banner",
+      "default": false
+    },
+    {
+			"type": "text",
+			"id": "cookie-banner-heading",
+			"label": "Heading",
+			"default": "We value your privacy"
+		},
+    {
+      "type": "richtext",
+      "id": "cookie-text",
+      "label": "Text",
+      "default": "<p>To deliver exceptional quality and service we use Cookies, pixel tracking and anonymized site tracking such a Google Analytics. You can always disable and erase cookies as well as request to review, amen or delete your data.</p>"
+    },
+    {
+			"id": "learn-more-link",
+      "type": "url",
+      "label": "Learn more link"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image"
+    }
+  ]
+}
+{% endschema %}

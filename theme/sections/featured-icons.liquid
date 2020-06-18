@@ -1,0 +1,262 @@
+<div class="section-cont featured-icons">
+    <div class="section-heading-text">
+        <div class="grid page-width">
+            <div
+                class="grid__item text-center{% unless section.settings.full_width %} medium-up--two-thirds medium-up--push-one-sixth{% endunless %}">
+                {% if section.settings.featured-icons-section-heading != blank %}
+                <h2 class="rich-text__heading separator
+                    {% if section.settings.text_size == 'large' %} h1{% elsif section.settings.text_size == 'small' %} h3{% endif %}"
+                    data-animate>
+                    {{ section.settings.featured-icons-section-heading | escape }}
+                </h2>
+                {% endif %}
+
+                {% if section.settings.text != blank %}
+                <div class="rich-text__body-text rich-text__body-text--{{ section.settings.text_size }} rte-setting">
+                    {{ section.settings.text }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="featured-grid-outer-wrapper">
+        <div class="featured-grid-inner-wrapper">
+            <!--     <div class="featured-grid-heading">
+      <h2 class="rich-text__heading separator has-animated">{{section.settings.summary-section-heading}}</h2>
+    </div> -->
+            <div class="featured-grid-list">
+                {% for block in section.blocks %}
+
+
+                {% if block.settings.featured-icon-link-wrap %}<a class="featured-grid-entry-inner" target="_blank"
+                    href="{{block.settings.featured-icon-link}}">{% else %}<div class="featured-grid-entry-inner">{% endif %}
+                        <div class="image-cont">
+                            <div class="thumbnail">
+                                <img src="{{block.settings.featured-icon-image.src | img_url: "800x1024"}}">
+                            </div>
+                        </div>
+                        {% if block.settings.featured-icon-link-wrap %}</a>{% else %}</div>{% endif %}
+            {% endfor %}
+        </div>
+        <div class="featured-grid-bottom-section">
+            {% if section.settings.summary-display-button %}
+            <div class="featured-grid-cta">
+                <a class="btn"
+                    href="{{section.settings.summary-button-link}}">{{section.settings.summary-button-text}}</a>
+            </div>
+            {% endif %}
+            {% if section.settings.summary-display-bottom-text %}
+            <div class="featured-grid-description">
+                <h3>{{section.settings.summary-text}}</h3>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+</div>
+
+<style>
+.featured-icons.section-cont{
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+@media only screen and (min-width: 750px) {
+    .featured-icons.section-cont{
+        padding-bottom: 40px;
+        padding-top: 95px;
+    }
+}
+.featured-icons .section-heading-text h2{
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 749px) {
+    .featured-icons .section-heading-text h2{
+        margin-bottom: 30px;
+    }
+}
+.featured-icons .section-heading-text .grid__item{
+    padding-left: 0;
+}
+@media only screen and (max-width: 750px) {
+    .featured-icons .section-heading-text h2::before {
+        margin: 0 auto 10px;
+    }
+}
+
+.featured-icons .featured-grid-outer-wrapper{
+   background: transparent; 
+   max-width: 1360px;
+   margin: 0 auto;
+}
+.featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper {
+  padding: 0 1.5%;
+}
+@media (max-width: 800px) {
+  .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper {
+    padding: 0 3.5%;
+  }
+}
+.featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: none;
+  margin: 0 auto;
+}
+@media (max-width: 800px) {
+  .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 568px) {
+  .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+}
+.featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner {
+  flex-basis: 20%;
+  width: 20%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 16px 0;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner {
+    /* flex-basis: 100%;
+    width: 100%; */
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 0;
+    flex-basis: 50%;
+    width: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+}
+.featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .image-cont{
+  position: relative;
+  margin-bottom: 0;
+}
+@media (max-width: 800px) {
+  .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .image-cont{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+.featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .image-cont .thumbnail{
+  height: 0;
+  padding-bottom: 85%;
+}
+@media (max-width: 800px) {
+    .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .image-cont .thumbnail{
+        padding-bottom: 80%;
+    }
+}
+.featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .image-cont .thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+@media (max-width: 800px) {
+  .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .entry-wrapper{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    width: 50%;
+    align-self: center;
+  }
+}
+.featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .entry-title-cont {
+  text-align: left;
+  padding: 0 16px;
+}
+@media (max-width: 800px) {
+  .featured-icons .featured-grid-outer-wrapper .featured-grid-inner-wrapper .featured-grid-list .featured-grid-entry-inner .entry-title-cont{
+  	padding: 0;
+  }
+}
+
+
+</style>
+
+{% schema %}
+  {
+    "name": "Featured icons section",
+    "class": "index-section featured-icons-section",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "full_width",
+            "label": "Wide display"
+        },
+		{
+			"type": "text",
+			"id": "featured-icons-section-heading",
+			"label": "Heading",
+			"default": "Featured icons"
+        },
+        {
+            "type": "select",
+            "id": "text_size",
+            "label": "Size",
+            "default": "medium",
+            "options": [
+                {
+                "label": "Small",
+                "value": "small"
+                },
+                {
+                "label": "Medium",
+                "value": "medium"
+                },
+                {
+                "label": "Large",
+                "value": "large"
+                }
+            ]
+        },
+		{
+            "id": "featured-icons-text",
+            "type": "richtext",
+            "label": "Botom section text"
+        }
+	],
+    "presets": [
+          {
+            "name": "Featured icons section",
+            "category": "Advanced layout"
+          }
+	],
+    "blocks": [
+      {
+        "type": "featured-icons-item",
+        "name": "Featured icon",
+        "settings": [
+          {
+            "id": "featured-icon-image",
+            "type": "image_picker",
+            "label": "Item image"
+          },
+          {
+            "id": "featured-icon-link-wrap",
+            "type": "checkbox",
+            "label": "Should we wrap the icon in a link tag?"
+          },
+          {
+            "id": "featured-icon-link",
+            "type": "url",
+            "label": "Icon wrapper link"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

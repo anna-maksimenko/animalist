@@ -1,0 +1,342 @@
+<div class="grid-outer-wrapper">
+  <div class="grid-inner-wrapper">
+<!--     <div class="grid-heading">
+      <h2 class="rich-text__heading separator has-animated">{{section.settings.summary-section-heading}}</h2>
+    </div> -->
+      <div class="grid-list">
+        {% for block in section.blocks %}
+        
+          
+            {% if block.settings.summary-item-link-wrap %}<a class="grid-entry-inner" target="_blank"
+              href="{{block.settings.summary-item-link}}">{% else %}<div class="grid-entry-inner">{% endif %}
+              <div class="image-cont">
+                  <div class="thumbnail">
+                      <img src="{{block.settings.summary-item-image.src | img_url: "800x1024"}}">
+                  </div>
+              </div>
+              <div class="entry-wrapper">
+                  <div class="entry-title-cont">
+                      <h3>{{block.settings.summary-item-text}}</h3>
+                  </div>
+                {% if block.settings.summary-item-display-button %}
+                  <div class="entry-cta">
+                      <a class="btn" href="{{block.settings.summary-item-button-link}}">{{block.settings.summary-item-button-text}}</a>
+                  </div>
+                {% endif %}
+              </div>
+            {% if block.settings.summary-item-link-wrap %}</a>{% else %}</div>{% endif %}
+        {% endfor %}
+      </div>
+    <div class="grid-bottom-section">
+      {% if section.settings.summary-display-button %}
+        <div class="grid-cta">
+          <a class="btn" href="{{section.settings.summary-button-link}}">{{section.settings.summary-button-text}}</a>
+        </div>
+      {% endif %}
+      {% if section.settings.summary-display-bottom-text %}
+        <div class="grid-description">
+          <h3>{{section.settings.summary-text}}</h3>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<style>
+.grid-outer-wrapper{
+  background: white;
+}
+.grid-outer-wrapper .grid-inner-wrapper {
+  padding: 30px;
+  padding-bottom: 82px;
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper {
+  	padding-bottom: 60px;
+  }
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 870px;
+  margin: 0 auto;
+  margin-top: -130px;
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+}
+@media (max-width: 568px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner {
+  flex-basis: 33.333333%;
+  width: 33.333333%;
+  padding: 16px 2.5%;
+  text-decoration: none;
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner {
+    flex-basis: 100%;
+    width: 100%;
+    display: flex;
+    padding-bottom: 0;
+    padding-top: 0;
+    transform: translatex(49px);
+  }
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner:first-child {
+    padding-top: 16px;
+    transform: translatex(-49px);
+  }
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner:last-child {
+    padding-bottom: 16px;
+    transform: translatex(-49px);
+  }
+}
+@media (max-width: 585px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner {
+    transform: none;
+  }
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner:first-child {
+    transform: none;
+  }
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner:last-child {
+    transform: none;
+  }
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .image-cont{
+  position: relative;
+  margin-bottom: 27px;
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .image-cont{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    width: 50%;
+  }
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .image-cont .thumbnail{
+  height: 0;
+  padding-bottom: 100%;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .image-cont .thumbnail img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-wrapper{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    width: 50%;
+    align-self: center;
+  }
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner:nth-child(even) .entry-wrapper{
+    order: 0;
+  }
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner:nth-child(even) .image-cont{
+  	order: 1;
+  }
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-title-cont {
+  text-align: left;
+  padding: 0 16px;
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-title-cont{
+  	padding: 0;
+  }
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-title-cont h3 {
+  font-family: "Avenir Next", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.625;
+  font-weight: 400;
+}
+@media (max-width: 800px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-title-cont h3{
+    text-align: left;
+    font-size: 20px;
+  }
+}
+@media (max-width: 585px) {
+  .grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-title-cont h3{
+    font-size: 14px;
+  }
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-cta {
+  display: block;
+  text-align: center;
+  padding-top: 20px;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-cta .btn {
+  -moz-user-select: "none";
+  -ms-user-select: "none";
+  -webkit-user-select: "none";
+  user-select: "none";
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  width: auto;
+  font-family: "Avenir Next", sans-serif;
+  font-style: normal;
+  background-color: #000;
+  border-radius: 0;
+  color: #fff;
+  border: 2px solid #000;
+  font-size: 9.6px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  line-height: 2.2;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: outline 0.1s linear;
+  box-sizing: border-box;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-list .grid-entry-inner .entry-cta .btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  outline: 2px solid #000;
+  transition: outline 0.1s linear;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-bottom-section{
+  margin-top: 17px;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-cta{
+  text-align: center;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-cta .btn{
+  padding-left: 45px;
+  padding-right: 45px;
+  font-size: 11px;
+  padding-left: 3.25em;
+  padding-right: 3.25em;
+  padding-bottom: 0.7777777em;
+  padding-top: 0.7777777em;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-description{
+  text-align: center;
+  margin-top: 19px;
+}
+.grid-outer-wrapper .grid-inner-wrapper .grid-description h3{
+  font-family: "Avenir Next", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.625;
+  font-weight: 400;
+}
+
+</style>
+
+{% schema %}
+  {
+    "name": "Summary section",
+    "class": "index-section summary-section",
+    "settings": [
+		{
+			"type": "text",
+			"id": "summary-section-heading",
+			"label": "Heading",
+			"default": "Instructions"
+		},
+		{
+            "id": "summary-text",
+            "type": "richtext",
+            "label": "Botom section text"
+        },
+        {
+			"id": "summary-display-bottom-text",
+            "type": "checkbox",
+            "label": "Should we display bottom section text? (under the button)"
+		},
+		{
+			"id": "summary-display-button",
+            "type": "checkbox",
+            "label": "Should we display bottom section button?"
+		},
+		{
+			"id": "summary-button-link",
+            "type": "url",
+            "label": "Bottom section button link"
+		},
+		{
+			"id": "summary-button-text",
+            "type": "text",
+            "label": "Bottom section button text"
+		}
+	],
+    "presets": [
+          {
+            "name": "Summary section",
+            "category": "Advanced layout"
+          }
+	],
+    "blocks": [
+      {
+        "type": "summary-item",
+        "name": "Summary item",
+        "settings": [
+          {
+            "id": "summary-item-image",
+            "type": "image_picker",
+            "label": "Item image"
+          },
+          {
+            "id": "summary-item-text",
+            "type": "richtext",
+            "label": "Item text"
+          },
+          {
+            "id": "summary-item-link-wrap",
+            "type": "checkbox",
+            "label": "Should we wrap the item in a link tag?"
+          },
+          {
+            "id": "summary-item-link",
+            "type": "url",
+            "label": "Item wrapper link"
+          },
+          {
+            "id": "summary-item-display-button",
+            "type": "checkbox",
+            "label": "Should we display item button?"
+          },
+		      {
+            "id": "summary-item-button-link",
+            "type": "url",
+            "label": "Item button link"
+          },
+          {
+          "id": "summary-item-button-text",
+                "type": "text",
+                "label": "Item button text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

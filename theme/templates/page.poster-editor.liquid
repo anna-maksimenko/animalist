@@ -1,0 +1,13 @@
+{% include 'shogun-products', content: page %}
+<div class="page-width">
+  <div class="grid">
+    <div class="grid__item medium-up--four-fifths medium-up--push-one-tenth">
+      <div class="rte">
+        {{ page.content }}
+      </div>
+    </div>
+  </div>
+</div>
+{%- comment -%}{% section 'poster-builder' %}{%- endcomment -%}
+{% section 'poster-builder-svelte' %}
+

@@ -1,0 +1,214 @@
+  {% if settings.show-cookie-banner == true %}
+  <div class="cookie-page-outer-wrapper">
+    <div class="cookie-page-inner-wrapper">
+      
+      <div class="cookie-container-outer">
+      	<div class="cookie-container-inner">
+          
+          <div class="main-content-outer-wrapper">
+            <div class="main-content-inner-wrapper">
+              
+              <div class="cookie-logo-img-wrapper">
+                <img class="site-header__logo-image" src="{{ settings.logo | img_url: "x200" }}" srcset="{{ settings.logo | img_url: "x200" }} 1x, {{ settings.logo | img_url: "x400", scale: 2 }} 2x" alt="{{ settings.logo.alt | default: shop.name }}" itemprop="logo">
+              </div>
+              
+              <div class="content-wrapper">
+                
+                <div class="header-wrapper">
+                  <h2 class="header">{{settings.cookie-banner-heading}}</h2>
+                </div>
+                <div class="message-wrapper">
+                  {{settings.cookie-text}}
+                </div>
+                <div class="grid-cta">
+                  <a class="btn" href="" >Okay!</a>
+                </div>
+                <div class="link-wrapper">
+                  <a class="text-link" target="_blank" href="{{settings.learn-more-link}}">Learn more</a>
+                </div>
+              
+              </div>
+ 
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <style>
+    .cookie-page-outer-wrapper{
+	    position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100;
+      background-color: rgba(0, 0, 0, 0.2);
+      display: none;
+    }
+    .cookie-page-outer-wrapper .cookie-page-inner-wrapper{
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    
+    .cookie-page-outer-wrapper .cookie-page-inner-wrapper .cookie-container-outer{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      width: 570px;
+    }
+    
+    @media screen and (max-width: 640px) {
+      .cookie-page-outer-wrapper .cookie-page-inner-wrapper .cookie-container-outer{
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transform: none;
+        width: 100%;
+        min-height: 100%;
+        overflow: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    
+    .cookie-page-outer-wrapper .cookie-page-inner-wrapper .cookie-container-outer .cookie-container-inner{
+      padding: 60px 30px;
+    }
+
+    @media screen and (max-width: 640px) {
+      .cookie-page-outer-wrapper .cookie-page-inner-wrapper .cookie-container-outer .cookie-container-inner{
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+        padding: 30px 30px 60px;
+      }
+    }
+    
+    .cookie-container-inner .cookie-logo-img-wrapper{
+      padding-bottom: 30px;
+    }
+
+    .cookie-container-inner .cookie-logo-img-wrapper img{
+      height: 130px;  
+    }
+    
+    .cookie-container-inner .content-wrapper{
+      padding: 0 30px 30px;
+      max-width: 85%;
+      margin: 0 auto;
+    }
+    
+    @media screen and (max-width: 640px) {
+      .cookie-container-inner .content-wrapper{
+        padding: 0;
+        max-width: none;
+      }
+    }
+    
+    .cookie-container-inner .content-wrapper .header-wrapper{
+      text-align: center;
+    }
+    
+    .cookie-container-inner .content-wrapper .header-wrapper h2{
+      letter-spacing: 1.5px;
+      color: #000000;
+    }
+    
+     @media screen and (min-width: 641px) {
+      .cookie-container-inner .content-wrapper .header-wrapper h2{
+        font-size: 28px;
+        margin-bottom: 11px;
+      }
+     }
+    
+    .cookie-container-inner .content-wrapper .message-wrapper{
+      /*text-align: center;*/
+    } 
+    
+    .cookie-container-inner .content-wrapper .message-wrapper p{
+      font-size: 13px;
+      text-align: center;
+      line-height: 1.625;
+      font-weight: 400;
+      padding: 10px 10px;
+    } 
+
+    @media (max-width: 568px){
+      .cookie-container-inner .content-wrapper .message-wrapper p{
+        font-family: "Avenir Next", sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22.1px;
+        padding: 0px 10px;
+      }
+    }
+    
+    .cookie-container-inner .content-wrapper .grid-cta{
+      text-align: center;
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 3rem;
+    }
+    
+    .cookie-container-inner .content-wrapper .grid-cta .btn{
+      font-size: 2.25rem;
+      width: 100%;
+    } 
+    
+    @media screen and (min-width: 641px) {
+      .cookie-container-inner .content-wrapper .grid-cta .btn{
+      	font-size: 1.9rem;
+        width: 80%;
+        padding: 5px 30px;
+      }
+    }
+
+    @media (max-width: 568px){
+      .cookie-container-inner .content-wrapper .grid-cta .btn{
+        font-size: 1.5rem;
+      }
+    }
+    
+    .cookie-container-inner .content-wrapper .link-wrapper{
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+    
+    .cookie-container-inner .content-wrapper .link-wrapper a{
+      color: #000;
+      font-size: 1.9rem;
+    }
+    
+    
+
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script>
+    (function() {
+      var cookieIsHere = Cookies.get('ccbmd');
+      $(function () {
+        if((!cookieIsHere || cookieIsHere != '1f458') && !(location.pathname.indexOf("privacy-policy") !== -1)){
+          setTimeout(function(){
+            $('.cookie-page-outer-wrapper').fadeIn();
+            $('.cookie-page-outer-wrapper .grid-cta .btn').on('click', function(e){
+              e.preventDefault();
+              Cookies.set('ccbmd', '1f458', { expires: 365 });
+              $('.cookie-page-outer-wrapper').fadeOut();
+            })
+          }, 1500)
+          
+        }
+      })
+    }());
+  </script>
+  {% endif %}

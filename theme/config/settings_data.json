@@ -1,0 +1,1613 @@
+{
+  "current": {
+    "color_primary": "#000000",
+    "color_header_text": "#383838",
+    "color_primary_heading_text": "#383838",
+    "color_primary_body_text": "#383838",
+    "color_footer_text": "#ffffff",
+    "color_button_text": "#ffffff",
+    "color_header_bg": "#ffffff",
+    "color_footer_bg": "#242424",
+    "color_main_bg": "#faf9f6",
+    "color_secondary_bg": "#f4f1ec",
+    "color_product_cards": "#ffffff",
+    "color_form_elements": "#ffffff",
+    "color_cart_flag": "#77cd91",
+    "type_base_size": "50%",
+    "type_header_font": "avenir_next_n5",
+    "type_base_font": "avenir_next_n4",
+    "show_cart_drawer": true,
+    "show_cart_note": false,
+    "share_image": "shopify:\/\/shop_images\/Screenshot_2019-05-10_at_07.46.13_e0c1f08b-055a-46a6-acf8-b2bb1784154e.png",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_facebook_link": "https:\/\/www.facebook.com\/dogmade.artwork\/",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/dogmade\/",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/Favicon_d979fa6c-b93b-46aa-9752-a844cfab2069.png",
+    "show-cookie-banner": false,
+    "cookie-banner-heading": "We value your privacy",
+    "cookie-text": "<p>To deliver exceptional quality and service we use Cookies, pixel tracking and anonymized site tracking such a Google Analytics. You can always disable and erase cookies as well as request to review, amen or delete your data.<\/p>",
+    "learn-more-link": "shopify:\/\/pages\/privacy-policy",
+    "logo": "shopify:\/\/shop_images\/Dogmade-logo.jpg",
+    "instagram_user_id": "7661034138",
+    "instagram_access_token": "7661034138.d90570a.efa52e145b6a42b3ae54a00c5e398f53",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Dogmade-logo_70f77beb-38ba-418c-a3a4-fef135864333.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#faf9f6",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#f4f1ec",
+    "checkout_heading_font": "Roboto",
+    "checkout_body_font": "Roboto",
+    "checkout_accent_color": "#383838",
+    "checkout_button_color": "#383838",
+    "checkout_error_color": "#ff6d6d",
+    "logo_max_height": "15",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "icon": "bag",
+          "logo": "shopify:\/\/shop_images\/Dogmade-logo.png",
+          "logo_max_height": "100",
+          "enable_transparent": true,
+          "transparent_logo": "",
+          "transparent_text_color": "#000000",
+          "primary_navigation": "main-menu",
+          "secondary_navigation": "",
+          "show_social_icons": true,
+          "show_announcement": false,
+          "home_page_only": false,
+          "announcement_text": "FREE WORLDWIDE SHIPPING",
+          "announcement_link": "",
+          "announcement_icon": "none",
+          "announcement_color_bg": "#000000",
+          "announcement_color_text": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1486649858082": {
+            "type": "menu",
+            "settings": {
+              "link_list": "footer"
+            }
+          },
+          "1538469835835": {
+            "type": "menu",
+            "settings": {
+              "link_list": ""
+            }
+          }
+        },
+        "block_order": [
+          "1486649858082",
+          "1538469835835"
+        ],
+        "settings": {
+          "show_social_icons": true,
+          "show_payment_icons": true,
+          "enable_parallax": false,
+          "show_newsletter": true,
+          "newsletter_heading": "Sign up for updates",
+          "newsletter_subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "products": "2",
+          "rows": "6",
+          "product_tags_enable": false,
+          "product_sorting_enable": false,
+          "collection_hero_image": false,
+          "collection_hero_image_parallax": false,
+          "grid_style": "collage",
+          "show_spacing": false,
+          "show_vendor": true
+        }
+      },
+      "1478027260401": {
+        "type": "quotes",
+        "blocks": {
+          "1478027260401-0": {
+            "type": "quote",
+            "settings": {
+              "heading": "WOW!",
+              "quote": "<p>\"I am so happy with this beautiful and unique piece of art. Amazing quality and great service. I really do recommend Dogmade artwork.\"<\/p>",
+              "author": "Emelie P"
+            }
+          },
+          "1478027389453": {
+            "type": "quote",
+            "settings": {
+              "heading": "Way above expectations!",
+              "quote": "<p>\"The print looks even better in reality. Great experience from start to finish!\"<\/p>",
+              "author": "Anna R"
+            }
+          },
+          "1538080788570": {
+            "type": "quote",
+            "settings": {
+              "heading": "I LOVE the hand-painted feel!",
+              "quote": "<p>\"It really feels like a painting and not a poster. It looks so amazing in my living room!\"<\/p>",
+              "author": "Ida R"
+            }
+          }
+        },
+        "block_order": [
+          "1478027260401-0",
+          "1478027389453",
+          "1538080788570"
+        ],
+        "settings": {
+          "color_bg": "#f4f1ec",
+          "color_text": "#333333",
+          "autoplay_speed": "6000"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_variant_labels": false,
+          "show_vendor": false,
+          "hide_variant_images": false,
+          "enable_payment_button": false,
+          "show_share_buttons": false
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "grid_style": "collage",
+          "articles": "2",
+          "rows": "4",
+          "blog_show_date": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "1547042456790": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt1_e6852270-d1c1-4365-8d05-203dc6496d50.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/1_22e32ede-d5b1-4621-85e8-d5f445de0c2b.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          },
+          "1547042664061": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt2.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/2_73733276-14b8-4912-ae13-de4e910ac366.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          },
+          "1547042715771": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt3.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/3_b118e965-b141-4d48-bcb4-65f159f22fc3.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          },
+          "1547043076320": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt4.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/4_efa6376e-018e-4ea4-a059-de2ac0c6b17a.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          },
+          "1547043122336": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt5.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/5_a0edcfb0-55a8-4276-ad6d-f24202012c9e.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          },
+          "1547043166925": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt6.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/6_94d99df4-4624-4162-a1ac-01803928883b.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          },
+          "1547043202127": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt7.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/7_7ae0b5e5-70ad-4518-ba2b-a5b005df4b8b.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          },
+          "1547041851595": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Alt8.jpg",
+              "image-mobile": "shopify:\/\/shop_images\/8_38088202-f26b-4731-8848-653d26359f3e.jpg",
+              "alignment": "center center",
+              "title": "Personalized art for dog lovers",
+              "button": "",
+              "cta_link": "shopify:\/\/pages\/create-artwork"
+            }
+          }
+        },
+        "block_order": [
+          "1547042456790",
+          "1547042664061",
+          "1547042715771",
+          "1547043076320",
+          "1547043122336",
+          "1547043166925",
+          "1547043202127",
+          "1547041851595"
+        ],
+        "settings": {
+          "cta": "Create artwork",
+          "show_overlay": true,
+          "overlay_color": "#000000",
+          "overlay_text": "#000000",
+          "overlay_opacity": "0"
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "image_parallax": true,
+          "show_date": true,
+          "show_author": false,
+          "show_share_buttons": true
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "",
+          "logo_max_width": "100"
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "header": "Coming Soon",
+          "newsletter_enable": true,
+          "newsletter_form_heading": "",
+          "newsletter_form_subheading": "<p>Sign up and we'll let you know when we open!<\/p>",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Submit",
+          "show_share_buttons": true,
+          "social_message": "Spread the word"
+        }
+      },
+      "password-footer": {
+        "type": "password-footer",
+        "settings": {
+          "show_powered_by": false
+        }
+      },
+      "1531770306445": {
+        "type": "gallery",
+        "blocks": {
+          "1531770306445-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hero-whippet_d9f139d6-dc34-4125-83ce-ab47b1f6f805.jpg",
+              "alignment": "center center",
+              "icon": "none",
+              "cta_label": "",
+              "link": "https:\/\/dogmade.com\/pages\/create-artwork?breed=whippet&color=white&shape=line&size=50x70cm&direction=left"
+            }
+          },
+          "1531770306445-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hero-Pug_a595cb7e-251c-4d99-9bae-7ba1a491a373.jpg",
+              "alignment": "center center",
+              "icon": "none",
+              "cta_label": "",
+              "link": "https:\/\/dogmade.com\/pages\/create-artwork?breed=pug&color=yellow&shape=mosaic&size=50x70cm&direction=right"
+            }
+          },
+          "1531770306445-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Hero-Peanut_a1448bd6-8703-4049-93be-bc2ad55a28db.jpg",
+              "alignment": "center center",
+              "icon": "none",
+              "cta_label": "",
+              "link": "https:\/\/dogmade.com\/pages\/create-artwork?breed=staffordshire-bull-terrier&color=white&shape=line&size=50x70cm&direction=left"
+            }
+          }
+        },
+        "block_order": [
+          "1531770306445-1",
+          "1531770306445-2",
+          "1531770306445-0"
+        ],
+        "settings": {
+          "section_height": "large",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#ffffff",
+          "overlay_opacity": "0.3"
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "grid_style": "collage",
+          "products": "2",
+          "sort": "alphabetical",
+          "show_spacing": false,
+          "show_description": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": false
+        }
+      },
+      "1531853744050": {
+        "type": "rich-text",
+        "settings": {
+          "full_width": false,
+          "section_title": "Your dog. Your style.",
+          "text": "<p>With Dogmade, you can get a customized work of art&nbsp;for your four-legged soul mate.<\/p>",
+          "text_size": "large"
+        }
+      },
+      "1534749717432": {
+        "type": "highlight",
+        "disabled": true,
+        "settings": {
+          "border_color": "#e1dbd0",
+          "content_alignment": "middle",
+          "image": "shopify:\/\/shop_images\/Webp.net-gifmaker_4.gif",
+          "image_position": "front",
+          "heading": "Know someone with a four-legged soul mate?",
+          "text": "Then a Dogmade gift card is the perfect present!",
+          "use_second_button": false,
+          "button_text": "View",
+          "button_link": "shopify:\/\/products\/gift-card"
+        }
+      },
+      "poster-builder": {
+        "type": "poster-builder",
+        "settings": {
+          "poster-heading": "Create artwork",
+          "announcement-text": "<p>Can&rsquo;t find your dog breed? <a href=\"\/pages\/contact-us\" title=\"Contact us\">Let us know!<\/a><\/p>",
+          "dog-select": "Dog breed",
+          "style-select": "Style",
+          "color-select": "Color",
+          "size-select": "Size",
+          "direction-select": "Direction",
+          "text-select": "Text",
+          "add-to-cart-text": "Add to cart"
+        }
+      },
+      "1542380396654": {
+        "type": "feature-row",
+        "settings": {
+          "size": "large",
+          "background_color": "#faf9f6",
+          "image": "shopify:\/\/shop_images\/paper_5.jpg",
+          "image_crop": "none",
+          "alignment": "center right",
+          "title": "310 Gram Copperplate Paper",
+          "text": "<p>We are proud to be using the heavyweight Hahnem&uuml;hle German Etching, which is nothing but the cr&egrave;me-de-la-cr&egrave;me of fine art paper. Characterized by its refined structure and a matt, warm white shade, it looks great in all types of light. Guaranteed to last over 40 years, it is free of acid and lignin.<\/p>",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "desktop_layout": "right",
+          "mobile_layout": "bottom"
+        }
+      },
+      "1542530769345": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "size": "large",
+          "background_color": "#faf9f6",
+          "image": "shopify:\/\/shop_images\/Painting_750d9e59-0c72-4e0b-b2d3-7c964fb24425.jpg",
+          "image_crop": "none",
+          "alignment": "center left",
+          "title": "About",
+          "text": "<p>Ever since the first cave paintings, dogs have been praised and portrayed as living symbols of protection, loyalty and unconditional love. Our goal is to keep this tradition alive by letting dog lovers immortalize their furry friends in a modern and personalized way.<\/p>",
+          "use_second_button": false,
+          "button_label": "More",
+          "button_link": "shopify:\/\/pages\/about",
+          "desktop_layout": "left",
+          "mobile_layout": "top"
+        }
+      },
+      "1542556036772": {
+        "type": "summary-section",
+        "blocks": {
+          "1542556044820": {
+            "type": "summary-item",
+            "settings": {
+              "summary-item-image": "shopify:\/\/shop_images\/Tutorial-1_e43ab845-008d-4a58-ae37-791013d91169.png",
+              "summary-item-text": "<p>Select your dog breed from over 60 breeds.<\/p>",
+              "summary-item-display-button": false,
+              "summary-item-button-link": "",
+              "summary-item-button-text": ""
+            }
+          },
+          "1542556179141": {
+            "type": "summary-item",
+            "settings": {
+              "summary-item-image": "shopify:\/\/shop_images\/Tutorial-2_b27f9f75-d450-425d-bf76-bfcb4d9ff060.png",
+              "summary-item-text": "<p>Choose style, color and size. If you like, you can also add your dog's name.<\/p>",
+              "summary-item-display-button": false,
+              "summary-item-button-link": "",
+              "summary-item-button-text": ""
+            }
+          },
+          "1542556212412": {
+            "type": "summary-item",
+            "settings": {
+              "summary-item-image": "shopify:\/\/shop_images\/Tutorial-3_4f0e2ece-38d8-4c42-a60c-76ce7733938d.png",
+              "summary-item-text": "<p>Review and place your order. We offer free shipping worldwide!<\/p>",
+              "summary-item-display-button": false,
+              "summary-item-button-link": "",
+              "summary-item-button-text": ""
+            }
+          }
+        },
+        "block_order": [
+          "1542556044820",
+          "1542556179141",
+          "1542556212412"
+        ],
+        "settings": {
+          "summary-section-heading": "",
+          "summary-text": "<p>or give someone a gift card<\/p>",
+          "summary-display-bottom-text": false,
+          "summary-display-button": true,
+          "summary-button-link": "shopify:\/\/pages\/create-artwork",
+          "summary-button-text": "Create artwork"
+        }
+      },
+      "1542622141013": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "hero_size": "large",
+          "image": "shopify:\/\/shop_images\/Painting_750d9e59-0c72-4e0b-b2d3-7c964fb24425.jpg",
+          "alignment": "center center",
+          "title": "About",
+          "text": "<p>Ever since the first cave paintings, dogs have been praised and portrayed as living symbols of protection, loyalty and unconditional love. Our goal is to keep this tradition alive by letting dog lovers immortalize their furry friends in a modern and personalized way.<\/p>",
+          "text_size": "large",
+          "use_second_button": false,
+          "button_label": "More",
+          "button_link": "shopify:\/\/pages\/about",
+          "show_overlay": true,
+          "overlay_color": "#ffa972",
+          "overlay_text": "#000000",
+          "overlay_opacity": "0"
+        }
+      },
+      "1546870193645": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "hero_size": "large",
+          "image": "shopify:\/\/shop_images\/close-up.jpg",
+          "alignment": "center center",
+          "title": "310 Gram Copperplate Paper",
+          "text": "<p>We are proud to be using the heavyweight Hahnem&uuml;hle German Etching, which is nothing but the cr&egrave;me-de-la-cr&egrave;me of fine art paper. Characterized by its refined structure and a matt, warm white shade, it looks great in all types of light. Guaranteed to last over 40 years, it is free of acid and lignin.<\/p>",
+          "text_size": "large",
+          "use_second_button": false,
+          "button_label": "",
+          "button_link": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_text": "#000000",
+          "overlay_opacity": "1"
+        }
+      },
+      "cookie-banner": {
+        "type": "cookie-banner",
+        "settings": {
+          "show-cookie-banner": true,
+          "cookie-banner-heading": "We value your privacy",
+          "cookie-text": "<p>To deliver exceptional quality and service we use Cookies, pixel tracking and anonymized site tracking such a Google Analytics. You can always disable and erase cookies as well as request to review, amen or delete your data.<\/p>",
+          "learn-more-link": "shopify:\/\/pages\/privacy-policy",
+          "logo": "shopify:\/\/shop_images\/Dogmade-logo.jpg"
+        }
+      },
+      "1557496104997": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "Subscribe to our newsletter",
+          "subheading": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "success_message": "Thanks for subscribing",
+          "text_color": "#3a3a3a",
+          "background_color": "#eae7e0"
+        }
+      },
+      "insta-scroller-section": {
+        "type": "insta-scroller-section",
+        "settings": {
+          "reference": "@dogmade",
+          "heading": "Follow us on instagram",
+          "link": "https:\/\/www.instagram.com\/dogmade\/"
+        }
+      }
+    },
+    "content_for_index": [
+      "1531853744050",
+      "1542556036772",
+      "1531770306445",
+      "1534749717432",
+      "1542622141013",
+      "1542530769345",
+      "1478027260401",
+      "1542380396654",
+      "1546870193645",
+      "1557496104997"
+    ]
+  },
+  "presets": {
+    "Warm": {
+      "color_primary": "#eb4f47",
+      "color_header_text": "#e1c9b4",
+      "color_primary_heading_text": "#4a4a4a",
+      "color_primary_body_text": "#4a4a4a",
+      "color_footer_text": "#4a4a4a",
+      "color_button_text": "#ffffff",
+      "color_header_bg": "#fff",
+      "color_footer_bg": "#eae7e0",
+      "color_main_bg": "#faf9f6",
+      "color_secondary_bg": "#f4f1ec",
+      "color_product_cards": "#fff",
+      "color_form_elements": "#fff",
+      "color_cart_flag": "#eb4f47",
+      "type_base_size": "62.5%",
+      "type_header_font": "monotype_baskerville_n4",
+      "type_base_font": "avenir_next_n4",
+      "show_cart_drawer": true,
+      "show_cart_note": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "logo_max_height": "15",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "icon": "bag",
+            "logo_max_height": "15",
+            "enable_transparent": true,
+            "transparent_text_color": "#ffffff",
+            "primary_navigation": "main-menu",
+            "secondary_navigation": "footer",
+            "show_social_icons": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1486649858082": {
+              "type": "menu",
+              "settings": {
+                "link_list": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1486649858082"
+          ],
+          "settings": {
+            "show_social_icons": true,
+            "show_payment_icons": true,
+            "enable_parallax": true,
+            "show_newsletter": true
+          }
+        },
+        "1476381402840": {
+          "type": "video",
+          "settings": {}
+        },
+        "1476381658595": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "image": "",
+            "alignment": "top left",
+            "text_size": "medium",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_text": "#3a3a3a",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "products": "2",
+            "rows": "6",
+            "product_tags_enable": false,
+            "product_sorting_enable": false,
+            "collection_hero_image": false,
+            "collection_hero_image_parallax": false,
+            "show_spacing": false,
+            "show_vendor": true
+          }
+        },
+        "1478026923193": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#faf9f6",
+            "image_crop": "circle",
+            "alignment": "top left",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "desktop_layout": "left",
+            "mobile_layout": "top"
+          }
+        },
+        "1478027260401": {
+          "type": "quotes",
+          "blocks": {
+            "1478027260401-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "1478027389453": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1478027260401-0",
+            "1478027389453"
+          ],
+          "settings": {
+            "color_bg": "#000000",
+            "color_text": "#ffffff",
+            "autoplay_speed": "6000"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "hide_variant_images": true,
+            "show_share_buttons": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_date": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1486649146314": {
+              "type": "image",
+              "settings": {}
+            },
+            "1486649185448": {
+              "type": "image",
+              "settings": {}
+            },
+            "1486649208703": {
+              "type": "image",
+              "settings": {}
+            },
+            "1486649267624": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1486649146314",
+            "1486649185448",
+            "1486649208703",
+            "1486649267624"
+          ],
+          "settings": {
+            "cta": "view more",
+            "show_overlay": true,
+            "overlay_color": "#313131",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.3"
+          }
+        },
+        "1486649413883": {
+          "type": "gallery",
+          "blocks": {
+            "1486649413883-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "1486649413883-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1486649413883-0",
+            "1486649413883-1"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": true,
+            "overlay_color": "#3b3b3b",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.4"
+          }
+        },
+        "1486649522802": {
+          "type": "highlight",
+          "settings": {
+            "border_color": "#cbc8c1",
+            "content_alignment": "middle",
+            "image_position": "back",
+            "use_second_button": false
+          }
+        },
+        "1486649604878": {
+          "type": "featured-slider",
+          "blocks": {
+            "1486649604878-0": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#9d988b"
+              }
+            },
+            "1486649604878-1": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#cdcdcd"
+              }
+            },
+            "1486649604878-2": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#a7a59e"
+              }
+            },
+            "1486649769533": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#383a3c"
+              }
+            }
+          },
+          "block_order": [
+            "1486649604878-0",
+            "1486649604878-1",
+            "1486649604878-2",
+            "1486649769533"
+          ],
+          "settings": {
+            "use_second_button": false,
+            "text_color": "#ffffff",
+            "cover_title_desktop_position": "center",
+            "show_overlay": true,
+            "overlay_color": "#404040",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.2"
+          }
+        },
+        "1486649811524": {
+          "type": "featured-product",
+          "settings": {
+            "layout": "square",
+            "image_size": "cover",
+            "background_color": "transparent",
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "show_share_buttons": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "image_parallax": true,
+            "show_date": true,
+            "show_author": false,
+            "show_share_buttons": true
+          }
+        },
+        "1492806970384": {
+          "type": "custom-content",
+          "blocks": {
+            "1492806970384-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#3a3a3a",
+                "heading_style": "h4",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492806970384-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "",
+            "top_margin": true,
+            "bottom_margin": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1478026923193",
+        "1476381402840",
+        "1476381658595",
+        "1486649413883",
+        "1478027260401",
+        "1492806970384",
+        "1486649522802",
+        "1486649604878",
+        "1486649811524"
+      ]
+    },
+    "Light": {
+      "color_primary": "#dfa160",
+      "color_header_text": "#dfa160",
+      "color_primary_heading_text": "#000000",
+      "color_primary_body_text": "#4a4a4a",
+      "color_footer_text": "#ffffff",
+      "color_button_text": "#ffffff",
+      "color_header_bg": "#fff",
+      "color_footer_bg": "#dfa160",
+      "color_main_bg": "#ffffff",
+      "color_secondary_bg": "#f7f7f7",
+      "color_product_cards": "#ebebeb",
+      "color_form_elements": "#f1f1f1",
+      "color_cart_flag": "#b76b50",
+      "type_base_size": "62.5%",
+      "type_header_font": "open_sans_n7",
+      "type_base_font": "open_sans_n4",
+      "show_cart_drawer": true,
+      "show_cart_note": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "transparent_logo": "",
+      "logo_max_height": "15",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1486583739899": {
+              "type": "video",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1486583739899"
+          ],
+          "settings": {
+            "cta": "Shop now",
+            "show_overlay": true,
+            "overlay_color": "#ffffff",
+            "overlay_text": "#000000",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "icon": "bag",
+            "logo_max_height": "18",
+            "enable_transparent": true,
+            "transparent_text_color": "#dfa160",
+            "primary_navigation": "main-menu",
+            "secondary_navigation": "footer",
+            "show_social_icons": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1486586799558": {
+              "type": "menu",
+              "settings": {
+                "link_list": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1486586799558"
+          ],
+          "settings": {
+            "show_social_icons": true,
+            "show_payment_icons": true,
+            "enable_parallax": true,
+            "show_newsletter": true
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#fafafa",
+            "image_crop": "square",
+            "alignment": "center center",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "desktop_layout": "left",
+            "mobile_layout": "top"
+          }
+        },
+        "gallery": {
+          "type": "gallery",
+          "blocks": {
+            "1486502632685-0": {
+              "type": "image",
+              "settings": {
+                "alignment": "center center",
+                "icon": "checkmark",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1486502632685-0"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "featured-slider": {
+          "type": "featured-slider",
+          "blocks": {
+            "1486503036275-0": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": true,
+                "slide_button_text": "",
+                "slide_button_url": ""
+              }
+            },
+            "1486503036275-2": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": true,
+                "slide_button_text": "",
+                "slide_button_url": ""
+              }
+            },
+            "1486503036275-1": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": true,
+                "slide_button_text": "",
+                "slide_button_url": ""
+              }
+            },
+            "1487016418120": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#ebebeb",
+                "show_image": false,
+                "slide_image": "",
+                "slide_title": ""
+              }
+            }
+          },
+          "block_order": [
+            "1486503036275-0",
+            "1486503036275-2",
+            "1486503036275-1",
+            "1487016418120"
+          ],
+          "settings": {
+            "use_second_button": true,
+            "text_color": "#000000",
+            "cover_title_desktop_position": "center",
+            "show_overlay": true,
+            "overlay_color": "rgba(0,0,0,0)",
+            "overlay_text": "#000000",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "1486583009346": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#ffffff",
+            "image_crop": "none",
+            "alignment": "top left",
+            "use_second_button": false,
+            "button_label": "About us",
+            "desktop_layout": "right",
+            "mobile_layout": "bottom"
+          }
+        },
+        "1486584613697": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "alignment": "center center",
+            "text": "",
+            "text_size": "medium",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "show_overlay": true,
+            "overlay_color": "#ffffff",
+            "overlay_text": "#3a3a3a",
+            "overlay_opacity": "0"
+          }
+        },
+        "1486584983006": {
+          "type": "highlight",
+          "settings": {
+            "border_color": "#dfa160",
+            "content_alignment": "middle",
+            "image_position": "back",
+            "use_second_button": false,
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "products": "2",
+            "rows": "6",
+            "product_tags_enable": false,
+            "product_sorting_enable": true,
+            "collection_hero_image": true,
+            "collection_hero_image_parallax": true,
+            "show_spacing": false,
+            "show_vendor": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": true,
+            "hide_variant_images": true,
+            "show_share_buttons": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_date": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "image_parallax": true,
+            "show_date": true,
+            "show_author": false,
+            "show_share_buttons": true
+          }
+        },
+        "1492008725684": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "x-large",
+            "alignment": "top center",
+            "title": "",
+            "text": "",
+            "text_size": "medium",
+            "use_second_button": false,
+            "button_label": "Read our blog",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_text": "#3a3a3a",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "1492807242211": {
+          "type": "custom-content",
+          "blocks": {
+            "1492807242211-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#3a3a3a",
+                "heading_style": "h3",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492807242211-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "",
+            "top_margin": true,
+            "bottom_margin": false
+          }
+        }
+      },
+      "content_for_index": [
+        "feature-row",
+        "1486584613697",
+        "1486583009346",
+        "gallery",
+        "1492807242211",
+        "1486584983006",
+        "featured-slider",
+        "1492008725684"
+      ]
+    },
+    "Cold": {
+      "color_primary": "#00b490",
+      "color_header_text": "#00b490",
+      "color_primary_heading_text": "#ffffff",
+      "color_primary_body_text": "#a9a9a9",
+      "color_footer_text": "#000000",
+      "color_button_text": "#000000",
+      "color_header_bg": "#191c1b",
+      "color_footer_bg": "#00b490",
+      "color_main_bg": "#000000",
+      "color_secondary_bg": "#191c1b",
+      "color_product_cards": "#191c1b",
+      "color_form_elements": "#292c2b",
+      "color_cart_flag": "#ffffff",
+      "type_base_size": "62.5%",
+      "type_header_font": "titillium_web_n7",
+      "type_base_font": "lato_n4",
+      "show_cart_drawer": true,
+      "show_cart_note": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_tumblr_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1990C6",
+      "checkout_button_color": "#1990C6",
+      "checkout_error_color": "#ff6d6d",
+      "transparent_logo": "",
+      "logo_max_height": "15",
+      "sections": {
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "1486663529263": {
+              "type": "video",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1486663529263"
+          ],
+          "settings": {
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.6"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "icon": "cart",
+            "logo_max_height": "16",
+            "enable_transparent": true,
+            "transparent_text_color": "#00b490",
+            "primary_navigation": "main-menu",
+            "secondary_navigation": "footer",
+            "show_social_icons": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1486664283354": {
+              "type": "menu",
+              "settings": {
+                "link_list": "footer"
+              }
+            }
+          },
+          "block_order": [
+            "1486664283354"
+          ],
+          "settings": {
+            "show_social_icons": true,
+            "show_payment_icons": true,
+            "enable_parallax": true,
+            "show_newsletter": true,
+            "newsletter_heading": "Sign up for updates"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "#191c1b",
+            "image_crop": "circle",
+            "alignment": "center center",
+            "use_second_button": false,
+            "desktop_layout": "left",
+            "mobile_layout": "top"
+          }
+        },
+        "gallery": {
+          "type": "gallery",
+          "blocks": {
+            "1486502632685-0": {
+              "type": "image",
+              "settings": {
+                "icon": "checkmark"
+              }
+            },
+            "1486502639654": {
+              "type": "image",
+              "settings": {
+                "icon": "checkmark"
+              }
+            },
+            "1486502643820": {
+              "type": "image",
+              "settings": {
+                "icon": "checkmark"
+              }
+            }
+          },
+          "block_order": [
+            "1486502632685-0",
+            "1486502639654",
+            "1486502643820"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "featured-slider": {
+          "type": "featured-slider",
+          "blocks": {
+            "1486503036275-0": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#464f4e",
+                "show_image": true,
+                "slide_button_text": "View"
+              }
+            },
+            "1486503036275-1": {
+              "type": "slide",
+              "settings": {
+                "background_color": "#464f4e",
+                "show_image": true,
+                "slide_button_text": "View"
+              }
+            }
+          },
+          "block_order": [
+            "1486503036275-0",
+            "1486503036275-1"
+          ],
+          "settings": {
+            "use_second_button": true,
+            "text_color": "#ffffff",
+            "cover_title_desktop_position": "center",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "show_view_all": true
+          }
+        },
+        "1486664864970": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "alignment": "top center",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "show_overlay": true,
+            "overlay_color": "#00b490",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0"
+          }
+        },
+        "1486665151632": {
+          "type": "highlight",
+          "settings": {
+            "border_color": "#00b490",
+            "content_alignment": "middle",
+            "image_position": "back",
+            "use_second_button": true
+          }
+        },
+        "1486665428106": {
+          "type": "feature-row",
+          "settings": {
+            "size": "large",
+            "background_color": "",
+            "image_crop": "none",
+            "alignment": "top left",
+            "use_second_button": false,
+            "button_label": "",
+            "button_link": "",
+            "desktop_layout": "right",
+            "mobile_layout": "bottom"
+          }
+        },
+        "1486665657092": {
+          "type": "gallery",
+          "blocks": {
+            "1486665657092-0": {
+              "type": "image",
+              "settings": {
+                "alignment": "center center",
+                "icon": "none",
+                "cta_label": "",
+                "link": ""
+              }
+            },
+            "1486665657092-1": {
+              "type": "image",
+              "settings": {
+                "alignment": "center center",
+                "icon": "none",
+                "cta_label": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1486665657092-0",
+            "1486665657092-1"
+          ],
+          "settings": {
+            "section_height": "medium",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.3"
+          }
+        },
+        "1486665735205": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "medium",
+            "alignment": "center center",
+            "title": "",
+            "text_size": "large",
+            "use_second_button": true,
+            "button_label": "about us",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_text": "#ffffff",
+            "overlay_opacity": "0.5"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": true,
+            "hide_variant_images": true,
+            "show_share_buttons": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "products": "2",
+            "rows": "4",
+            "product_tags_enable": false,
+            "product_sorting_enable": false,
+            "collection_hero_image": false,
+            "collection_hero_image_parallax": false,
+            "show_spacing": false,
+            "show_vendor": true
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_date": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "image_parallax": false,
+            "show_date": true,
+            "show_author": false,
+            "show_share_buttons": true
+          }
+        },
+        "1492804742195": {
+          "type": "custom-content",
+          "blocks": {
+            "1492804742195-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#3a3a3a",
+                "heading_style": "h3",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492804742195-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "#00b490",
+            "top_margin": true,
+            "bottom_margin": true
+          }
+        },
+        "1492805123317": {
+          "type": "custom-content",
+          "blocks": {
+            "1492805123317-0": {
+              "type": "text",
+              "settings": {
+                "heading_text": "",
+                "heading_color": "#ffffff",
+                "heading_style": "h3",
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492805123317-0"
+          ],
+          "settings": {
+            "heading_text": "",
+            "heading_color": "#3a3a3a",
+            "background_color": "",
+            "top_margin": true,
+            "bottom_margin": false
+          }
+        }
+      },
+      "content_for_index": [
+        "feature-row",
+        "1492804742195",
+        "1486664864970",
+        "gallery",
+        "1492805123317",
+        "1486665151632",
+        "1486665428106",
+        "1486665657092",
+        "1486665735205",
+        "featured-slider",
+        "featured-collection"
+      ]
+    }
+  }
+}

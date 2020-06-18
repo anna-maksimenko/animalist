@@ -1,0 +1,249 @@
+
+
+<div class="section-header text-center">
+    {% if section.settings.breeds-title %}
+        <h1 class="h2">{{section.settings.breeds-title}}</h1>
+    {% endif %}
+</div>
+<div class="text-center rte ">
+    {% for block in section.blocks %}
+        {% if block.type == "text-block" %}
+            <h4 class="text-block"
+                {% if block.settings.padding-size %}style="padding-top: {{block.settings.padding-size}}px; padding-bottom:
+                {{block.settings.padding-size}}px" {% endif %}>
+                {{block.settings.text-content}}
+            </h4>
+        {% elsif block.type == "breed-search-block" %}
+            <div class="search-block">
+                <div id="searchBlock"></div>
+                {{ 'breeds-page.css' | asset_url | stylesheet_tag }}
+                {{ 'breeds-page.js' | asset_url | script_tag }}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% schema %}
+    {
+        "name": "Breeds page",
+        "class": "breed-section", 
+        "settings": [
+            {
+            "id": "breeds-title",
+            "type": "text",
+            "label": "Page content title",
+            "default": "Dog breeds"
+            }
+        ],
+        "blocks": [
+            {
+            "type": "text-block",
+            "name": "Block of text",
+            "settings": [
+                {
+                "type": "richtext",
+                "id": "text-content",
+                "label": "Text",
+                "default": "<p>Default <em>richtext</em> <a href=\"https://example.com/\">content </a> </p>"
+                },
+                {
+                "id": "padding-size",
+                "type": "range",
+                "min": 0,
+                "max": 120,
+                "step": 5,
+                "unit": "px",
+                "label": "Text block padding",
+                "default": 40
+                }
+            ]
+            },
+            {
+            "type": "breed-search-block",
+            "name": "Breed search block",
+            "limit": 1,
+            "settings": [
+                {
+                "id": "padding-size",
+                "type": "range",
+                "min": 0,
+                "max": 120,
+                "step": 5,
+                "unit": "px",
+                "label": "Breed search block padding",
+                "default": 40
+                }
+            ]
+            }
+        ]
+    }
+{% endschema %}
+
+{% stylesheet %}
+    .breed-section{
+        padding: 0 10%;
+        position: relative
+    }
+    .breed-section .section-header {
+        margin: 0 !important;
+        padding: 50px 0 20px;
+    }
+    @media only screen and (min-width: 750px){
+        .breed-section .section-header {
+            margin: 0 !important;
+            padding: 60px 0 30px;
+        }
+    }
+    .breed-section h4 p{
+        font-size: 2.4rem !important;
+        line-height: 1.5;
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+    .breed-section h4 p a{
+        font-weight: 600;
+    }
+    @media(max-width: 749px){
+        .breed-section h4 p{
+            font-size: 2.2rem !important;
+            line-height: 1.45455;
+            padding-left: 0;
+            padding-right: 0;
+            word-break: break-word;
+        }
+        .breed-section{
+            padding: 0;
+        }
+    }
+
+    /*Announcement bar*/
+    .breed-section .poster-announcement-bar-outer-cont {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar-triangle {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 40px;
+        text-align: right;
+        cursor: pointer;
+        display:none;
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar-triangle .triangle-outer {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid black;
+        border-top: 6px solid black;
+        border-bottom: 6px solid transparent;
+        -webkit-transition: border 0.2s;
+        -o-transition: border 0.2s;
+        transition: border 0.2s;
+        vertical-align: top;
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar-triangle:hover .triangle-outer {
+        border-left: 10px solid transparent;
+        border-right: 10px solid black;
+        border-top: 10px solid black;
+        border-bottom: 10px solid transparent;
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar {
+        background-color: #000;
+        display: none;
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement-bar-inner {
+        display: flex;
+        justify-content: center;
+        padding: 16px;
+        position: relative;
+    }
+    @media screen and (max-width: 1023px) {
+        .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement-bar-inner {
+            padding: 18px;
+        }
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement {
+        align-self: center;
+        margin: 0;
+        flex-grow: 2;
+        text-align: center;
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement p,.breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement a{
+        font-family: 'AvenirNext-Medium';
+        font-size: 16px;
+        color: #fff;
+        letter-spacing: 0.88px;
+        line-height: 1.625;
+        align-self: center;
+        margin: 0;
+        flex-grow: 2;
+        text-align: center;
+    }
+    @media screen and (max-width: 1023px) {
+        .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement p,.breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement a{
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 640px) {
+        .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement p,.breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .poster-announcement a{
+            font-size: 12px;
+        }
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .close-btn {
+        position: absolute;
+        top: 50%;
+        right: 9px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    @media screen and (max-width: 1023px) {
+        .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .close-btn{
+            right: 8px;
+        }
+    }
+    @media screen and (max-width: 374px) {
+        .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .close-btn{
+            right: 0;
+        }
+    }
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .close-btn svg {
+        /*transform: rotate(45deg);*/
+        width: 13px;
+        height: 13px;
+    }
+    @media screen and (max-width: 1023px) {
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .close-btn svg {
+        width: 12px;
+        height: 12px;
+    }
+    }
+    @media screen and (max-width: 640px) {
+    .breed-section .poster-announcement-bar-outer-cont .poster-announcement-bar .close-btn svg {
+        width: 8px;
+        height: 8px;
+    }
+    }
+{% endstylesheet %}
+
+{% javascript %}
+    $(function(){
+        $('.breed-section a').each(function(index, item){
+            ($(item).attr('href').indexOf('instagram.com/dogmade/') > -1) ? $(item).attr('target', '_blank') : 0;
+        })
+    })
+{% endjavascript %}

@@ -1,0 +1,555 @@
+.BOLD-mc-picker-mnt {
+    position: relative;
+    display: inline-block; }
+
+.BOLD-mc-picker-mnt.injected {
+    position: fixed;
+    overflow: visible;
+    z-index: 99999; }
+
+.BOLD-mc-picker-mnt[data-picker-location="bottom-middle"] {
+    bottom: 0;
+    top: initial !important;
+    margin-bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-middle"][data-edge-placement="float"] {
+    bottom: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-middle"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-middle"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-middle"] > .BOLD-mc-picker > .currencyList {
+    bottom: 31px;
+    top: auto; }
+
+.BOLD-mc-picker-mnt[data-picker-location="top-middle"] {
+    top: 0;
+    bottom: initial !important;
+    margin-top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+.BOLD-mc-picker-mnt[data-picker-location="top-middle"][data-edge-placement="float"] {
+    top: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="top-middle"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-picker-location="top-middle"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-picker-location="top-middle"] > .BOLD-mc-picker > .currencyList {
+    top: 31px;
+    bottom: auto; }
+
+.BOLD-mc-picker-mnt[data-picker-location="bottom-left"] {
+    bottom: 0;
+    top: initial !important;
+    margin-bottom: 0;
+    left: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-left"][data-edge-placement="float"] {
+    bottom: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-left"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-left"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-left"] > .BOLD-mc-picker > .currencyList {
+    bottom: 31px;
+    top: auto; }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-left"] > .BOLD-mc-picker > .currencyList {
+    left: 0;
+    -webkit-transform: none;
+    transform: none; }
+
+.BOLD-mc-picker-mnt[data-picker-location="top-left"] {
+    top: 0;
+    bottom: initial !important;
+    margin-top: 0;
+    left: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="top-left"][data-edge-placement="float"] {
+    top: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="top-left"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-picker-location="top-left"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-picker-location="top-left"] > .BOLD-mc-picker > .currencyList {
+    top: 31px;
+    bottom: auto; }
+.BOLD-mc-picker-mnt[data-picker-location="top-left"] > .BOLD-mc-picker > .currencyList {
+    left: 0;
+    -webkit-transform: none;
+    transform: none; }
+
+.BOLD-mc-picker-mnt[data-picker-location="bottom-right"] {
+    bottom: 0;
+    top: initial !important;
+    margin-bottom: 0;
+    right: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-right"][data-edge-placement="float"] {
+    bottom: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-right"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-right"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-right"] > .BOLD-mc-picker > .currencyList {
+    bottom: 31px;
+    top: auto; }
+.BOLD-mc-picker-mnt[data-picker-location="bottom-right"] > .BOLD-mc-picker > .currencyList {
+    left: 0;
+    -webkit-transform: translateX(-37%);
+    transform: translateX(-37%); }
+
+.BOLD-mc-picker-mnt[data-picker-location="top-right"] {
+    top: 0;
+    bottom: initial !important;
+    margin-top: 0;
+    right: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="top-right"][data-edge-placement="float"] {
+    top: 2%; }
+.BOLD-mc-picker-mnt[data-picker-location="top-right"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-picker-location="top-right"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-picker-location="top-right"] > .BOLD-mc-picker > .currencyList {
+    top: 31px;
+    bottom: auto; }
+.BOLD-mc-picker-mnt[data-picker-location="top-right"] > .BOLD-mc-picker > .currencyList {
+    left: 0;
+    -webkit-transform: translateX(-37%);
+    transform: translateX(-37%); }
+
+.BOLD-mc-picker > .currentCurrency > .flag, .BOLD-mc-picker > .currencyList > .option > .flag {
+    background-image: url("https://static.boldcommerce.com/multicurrency/flags.png");
+    position: absolute;
+    height: 11px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 6px;
+    width: 16px; }
+
+.BOLD-mc-picker {
+    margin-bottom: 0;
+    white-space: nowrap;
+    height: 32px; }
+.BOLD-mc-picker * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+.BOLD-mc-picker > .currentCurrency {
+    position: relative;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    width: 80px;
+    border: 1px solid #e5e5e5;
+    background: white;
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.15);
+    padding: 0 0 0 27px;
+    cursor: pointer;
+    text-align: left;
+    white-space: nowrap; }
+.BOLD-mc-picker > .currentCurrency > .flag.flag-loading {
+    background: gray;
+    display: inline-block; }
+.BOLD-mc-picker > .currentCurrency > .chevron {
+    position: absolute;
+    right: 3px;
+    top: 53%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    display: block;
+    margin-left: -3px; }
+.BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s; }
+.BOLD-mc-picker > .currencyList {
+    width: auto;
+    vertical-align: inherit;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #fff;
+    /* prevent horizontal scrollbars on windows */
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 145px;
+    border: 1px solid #e5e5e5;
+    z-index: 111;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none !important; }
+.BOLD-mc-picker > .currencyList > .option {
+    border-bottom: 1px solid #e5e5e5;
+    width: 125px;
+    margin: 0;
+    padding: 0 0 0 27px;
+    cursor: pointer;
+    text-align: left;
+    float: none;
+    height: 32px;
+    line-height: 32px; }
+.BOLD-mc-picker > .currencyList > .option:last-child {
+    border-bottom: none; }
+.BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker.open > .currencyList {
+    display: block !important; }
+.BOLD-mc-picker-mnt[data-open="up"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-open="up"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-open="up"] > .BOLD-mc-picker > .currencyList {
+    bottom: 31px;
+    top: auto; }
+.BOLD-mc-picker-mnt[data-open="down"] > .BOLD-mc-picker > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+.BOLD-mc-picker-mnt[data-open="down"] > .BOLD-mc-picker.open > .currentCurrency > .chevron > svg {
+    -webkit-transform: rotate(0);
+    transform: rotate(0); }
+.BOLD-mc-picker-mnt[data-open="down"] > .BOLD-mc-picker > .currencyList {
+    top: 31px;
+    bottom: auto; }
+
+body>.BOLD-mc-picker-mnt.injected {
+    display: none;
+}
+
+/* Create artwork page styles*/
+@media screen and (max-width: 1023px){
+  body .poster-cont .poster-cont-inner {
+    position: relative;
+  }
+}
+#shopify-section-poster-builder .BOLD-mc-picker-mnt{
+	opacity: 0;
+}
+/* body .poster-cont .poster-cont-inner .button-wrapper-mobile{
+    padding: 23px 19px 60px !important;
+} */
+#shopify-section-poster-builder .poster-bold-cont{
+	position: absolute;
+  	bottom: 0;
+  	left: 0;
+    width: 100%;
+    z-index: 100;
+}
+#shopify-section-poster-builder .form-cont-outer .poster-bold-cont{
+	position: fixed;
+}
+#shopify-section-poster-builder .poster-bold-cont.sticky{
+  	position: absolute;
+}
+#shopify-section-poster-builder .poster-bold-cont .poster-bold-cont-inner{
+    width: 50%;
+
+    margin-left: auto;
+}
+#shopify-section-poster-builder .poster-bold-cont.sticky .poster-bold-cont-inner{
+	width: 100%;
+}
+#shopify-section-poster-builder .poster-cont-inner> .poster-bold-cont .poster-bold-cont-inner{
+    width: 100%;
+}
+#shopify-section-poster-builder .poster-bold-cont .poster-bold-cont-inner .poster-bold-cont-wrapper{
+	width: 100%;
+}
+#shopify-section-poster-builder .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .poster-bold-cont-wrapper{
+    text-align: right;
+}
+#shopify-section-poster-builder .poster-cont-inner> .poster-bold-cont .poster-bold-cont-inner .poster-bold-cont-wrapper{
+	max-width: none;
+}
+#shopify-section-poster-builder .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .poster-bold-cont-wrapper .BOLD-mc-picker-mnt {
+	position: relative;
+}
+
+.poster-cont .BOLD-mc-picker-mnt .BOLD-mc-picker{
+    height: 47px;
+}
+.poster-cont .BOLD-mc-picker-mnt .currentCurrency {
+    height: 47px;
+    box-shadow: none;
+    border: none;
+    background-color: #efede7;
+    padding: 18px 16px;
+    line-height: 1;
+    letter-spacing: 1.27px;
+}
+.poster-cont .BOLD-mc-picker-mnt .currentCurrency .flag,
+.poster-cont .BOLD-mc-picker-mnt .currencyList .flag {
+    display: none;
+}
+.poster-cont .BOLD-mc-picker-mnt .currentCurrency .name,
+.poster-cont .BOLD-mc-picker-mnt .currencyList li {
+    vertical-align: middle;
+    font-weight: 600;
+    color: #000000;  
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none;
+}
+.poster-cont .BOLD-mc-picker-mnt .currentCurrency .chevron {
+    top: 48%;
+    right: 16px;
+}
+.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency .chevron svg{
+	stroke-width: 0.9px;
+    stroke-width: 1px;
+    -webkit-transform-origin: center 7px;
+    -ms-transform-origin: center 7px;
+    transform-origin: center 7px;
+}
+.poster-cont .BOLD-mc-picker-mnt .currentCurrency .chevron svg path {
+    stroke: #efede7;
+}
+.poster-cont .BOLD-mc-picker-mnt .currencyList {
+    width: 80px;
+    border: none;
+    bottom: 47px;
+    max-height: 307px;
+  
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow {
+    position: absolute;
+    left: 0;
+    border: none;
+    width: 120px;
+    height: 47px;
+  	z-index: 1000;
+    pointer-events: none;
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow.hidden {
+	display: none;
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    background-color: white;
+    border-style: solid;
+    height: 0;
+    margin-left: -4px;
+    margin-top: -2px;
+    width: 0;
+    border-color: #000000 transparent transparent;
+    border-width: 4px 3px 0px;
+  	z-index: 9999;
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px; 
+    border: none;
+    width: 120px;
+    height: 70px;
+  	z-index: 1000;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, #ffffff 64%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,#ffffff 64%,#ffffff 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,#ffffff 64%,#ffffff 100%);
+  	z-index: 1000;
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow.up {
+    top: -307px;
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow.down {
+	top: -47px;
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow.up:after {
+    transform: rotate(-180deg);
+    top: 18px;
+  	bottom: auto;
+}
+.poster-cont .BOLD-mc-picker-mnt .arrow.up:before {
+  	background: -moz-linear-gradient(bottom, rgba(255,255,255,0) 0%, #ffffff 64%, #ffffff 100%); 
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 0%,#ffffff 64%,#ffffff 100%);  
+    background: linear-gradient(to top, rgba(255,255,255,0) 0%,#ffffff 64%,#ffffff 100%); 
+    top: 0px;
+    bottom: auto;
+}
+.poster-cont .form-cont-outer .BOLD-mc-picker-mnt .currencyList {
+	-ms-overflow-style: none;
+  	overflow: -moz-scrollbars-none;
+}
+.form-cont-outer .sticky .BOLD-mc-picker-mnt .currencyList {
+    left: auto;
+    right: 0;
+}
+.form-cont-outer .BOLD-mc-picker-mnt .currencyList::-webkit-scrollbar {
+    width: 0 !important;  /* remove scrollbar space */
+}
+.poster-cont .BOLD-mc-picker-mnt .currencyList li {
+    padding: 18px 16px;
+    width: 97px;
+    height: 47px;
+  	line-height: 1;
+    letter-spacing: 1.27px;
+
+    border-bottom: 1px solid #efefef;
+}
+.poster-cont .BOLD-mc-picker-mnt .currencyList li:last-child {
+    margin-bottom: 0;
+}
+@media (min-width: 1025px){
+  .poster-cont .BOLD-mc-picker-mnt .currencyList li:hover {
+      color: #000;
+
+      background-color: #f7f7f7;
+  }
+}
+    
+.poster-cont .BOLD-mc-picker-mnt .currencyList li.selected {
+    -webkit-box-shadow: inset 0 0 0 2px  #000000;
+    -moz-box-shadow: inset 0 0 0 2px     #000000;
+    box-shadow: inset 0 0 0 2px  #000000;
+}
+
+
+#shopify-section-poster-builder .form-cont{
+    position: relative;
+}
+.poster-cont .form-cont-outer .BOLD-mc-picker-mnt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+@media (max-width: 1023px){
+    .form-cont-outer .poster-bold-cont{
+        display: none;
+    }
+}
+
+@media (min-width: 1023px) {
+    .poster-cont-inner>.poster-bold-cont {
+        display: none;
+    }
+}
+.poster-cont .form-cont-outer .poster-bold-cont {
+    pointer-events: none;
+}
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .BOLD-mc-picker {
+    pointer-events: initial;
+}
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency,
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList {
+    width: 120px;
+}
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency {
+    padding: 18px 26px;    
+    background-color: #efefef;
+}
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList {
+	max-height: none;
+  -webkit-transform: translateX(-60px);
+    transform: translateX(-60px);
+}
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList li {
+	width: 120px;
+  	padding: 18px 26px;
+}
+.poster-cont .form-cont-outer .poster-bold-cont.sticky .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList {
+    -webkit-transform: none;
+    transform: none;
+}
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency .chevron {
+	right: 26px;
+}
+.poster-cont .form-cont-outer .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency .chevron svg path {
+    stroke: #efefef;
+}
+
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt,
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency,
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList {
+    width: 100%;
+    text-align: center;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList::-webkit-scrollbar {
+    display: none; 
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt {
+    height: 65px;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency {
+    background-color: #faf9f6;
+    padding: 26px 16px;
+    height: 65px;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency .chevron {
+    right: calc(50% - 31px);
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currentCurrency .chevron svg path {
+    stroke: #faf9f6;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .arrow {
+	width: 100%;
+  	left: 0;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .arrow:before {
+	width: 100%;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList {
+    bottom: 65px;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList li {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 0;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList li:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.poster-cont .poster-cont-inner>.poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .currencyList li.selected:hover {
+    -webkit-box-shadow: inset 0 0 0 2px  #000000;
+    -moz-box-shadow: inset 0 0 0 2px     #000000;
+    box-shadow: inset 0 0 0 2px  #000000;
+}
+.poster-cont .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .BOLD-mc-picker.open .currentCurrency {
+	z-index: 1000;
+}
+.poster-cont .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .BOLD-mc-picker.open .currentCurrency,
+.poster-cont .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .BOLD-mc-picker.open .currencyList {
+    -webkit-box-shadow: -18px 18px 19px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: -18px 18px 19px rgba(0, 0, 0, 0.1);
+    box-shadow: -18px 18px 19px rgba(0, 0, 0, 0.1);
+}
+
+.poster-cont .poster-bold-cont .poster-bold-cont-inner .BOLD-mc-picker-mnt .BOLD-mc-picker.open .currencyList {
+    max-height: calc(100vh - 175px);
+}

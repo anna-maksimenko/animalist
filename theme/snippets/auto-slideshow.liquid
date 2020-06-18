@@ -1,0 +1,40 @@
+<script>
+  (function() {
+    function waitForImages(callback){
+      let imgNumber
+      let imgLoaded = 0
+      $(document).on('lazyloaded', '#shopify-section-slideshow img', () => {
+        imgLoaded += 1
+        if(imgLoaded === imgNumber){
+          callback()
+        }
+      })
+      $(function(){
+        imgNumber = $('#shopify-section-slideshow img').length/2
+      })
+     
+    }
+    function autoSlideShow(){
+      setInterval(function() {
+        var $slide = $('.slideshow__slide--active')
+          .removeClass('slideshow__slide--active');
+
+        var $button = $('.slideshow__button--active')
+          .removeClass('slideshow__button--active');
+
+        var $slides = $('.slideshow__slide');
+
+        var currentIndex = ($slides.index($slide) + 1) % $slides.length;
+
+        $slides
+          .eq(currentIndex)
+          .addClass('slideshow__slide--active');
+
+        var $buttons = $('.slideshow__button')
+          .eq(currentIndex)
+          .addClass('slideshow__button--active');
+      }, 1500)
+    }    
+    waitForImages(autoSlideShow)
+  })();
+</script>

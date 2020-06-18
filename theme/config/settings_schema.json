@@ -1,0 +1,328 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Narrative",
+    "theme_author": "Shopify",
+    "theme_version": "4.0.2",
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/using-themes\/themes-by-shopify\/narrative",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Accent Colors"
+      },
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Primary accent",
+        "default": "#eb4f47",
+        "info": "Sales tags, buttons, and special ornaments."
+      },
+      {
+        "type": "header",
+        "content": "Text & Icon Colors"
+      },
+      {
+        "type": "color",
+        "id": "color_header_text",
+        "label": "Header icons",
+        "default": "#4a4a4a"
+      },
+      {
+        "type": "color",
+        "id": "color_primary_heading_text",
+        "label": "Primary heading text",
+        "default": "#3a3a3a"
+      },
+      {
+        "type": "color",
+        "id": "color_primary_body_text",
+        "label": "Primary body text",
+        "default": "#4a4a4a"
+      },
+      {
+        "type": "color",
+        "id": "color_footer_text",
+        "label": "Footer text",
+        "default": "#4a4a4a"
+      },
+      {
+        "type": "color",
+        "id": "color_button_text",
+        "label": "Button label",
+        "default": "#ffffff"
+      },
+      {
+        "type": "header",
+        "content": "Background colors"
+      },
+      {
+        "type": "color",
+        "id": "color_header_bg",
+        "label": "Header background",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "color_footer_bg",
+        "label": "Footer background",
+        "default": "#eae7df"
+      },
+      {
+        "type": "color",
+        "id": "color_main_bg",
+        "label": "Main background",
+        "default": "#faf9f6"
+      },
+      {
+        "type": "color",
+        "id": "color_secondary_bg",
+        "label": "Secondary background",
+        "default": "#f1eee6",
+        "info": "Social sharing sections, cart drawer, blog comments."
+      },
+      {
+        "type": "header",
+        "content": "Other Colors"
+      },
+      {
+        "type": "color",
+        "id": "color_product_cards",
+        "label": "Product Cards",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "color_form_elements",
+        "label": "Form elements",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "color_cart_flag",
+        "label": "Cart flag",
+        "default": "#eb4f47"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Global"
+      },
+      {
+        "type": "select",
+        "id": "type_base_size",
+        "label": "Base size",
+        "default": "62.5%",
+        "options": [
+          {
+            "value": "50%",
+            "label": "Small"
+          },
+          {
+            "value": "62.5%",
+            "label": "Medium"
+          },
+          {
+            "value": "75%",
+            "label": "Large"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Headings"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_header_font",
+        "label": "Font",
+        "default": "monotype_baskerville_n4"
+      },
+      {
+        "type": "header",
+        "content": "Body text"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_base_font",
+        "label": "Font",
+        "default": "avenir_next_n4"
+      }
+    ]
+  },
+  {
+    "name": "Cart drawer",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_cart_drawer",
+        "label": "Show cart drawer",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "show_cart_note",
+        "label": "Show cart note"
+      }
+    ]
+  },
+  {
+    "name": "Social",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Social sharing image"
+      },
+      {
+        "type": "image_picker",
+        "id": "share_image",
+        "label": "Image",
+        "info": "Shown when sharing a link on social media. [Learn more](https:\/\/help.shopify.com\/manual\/using-themes\/troubleshooting\/showing-social-media-thumbnail-images\/) about image thumbnails."
+      },
+      {
+        "type": "header",
+        "content": "Social sharing",
+        "info": "Allow customers to share products and blog posts on various social networks."
+      },
+      {
+        "type": "checkbox",
+        "id": "share_facebook",
+        "label": "Share on Facebook"
+      },
+      {
+        "type": "checkbox",
+        "id": "share_twitter",
+        "label": "Tweet on Twitter"
+      },
+      {
+        "type": "checkbox",
+        "id": "share_pinterest",
+        "label": "Pin on Pinterest"
+      },
+      {
+        "type": "header",
+        "content": "Social links",
+        "info": "Links to your store's social network profiles and pages."
+      },
+      {
+        "type": "text",
+        "id": "social_facebook_link",
+        "label": "Facebook link",
+        "info": "https:\/\/facebook.com\/shopify"
+      },
+      {
+        "type": "text",
+        "id": "social_twitter_link",
+        "label": "Twitter link",
+        "info": "https:\/\/twitter.com\/shopify"
+      },
+      {
+        "type": "text",
+        "id": "social_pinterest_link",
+        "label": "Pinterest link",
+        "info": "https:\/\/pinterest.com\/shopify"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram_link",
+        "label": "Instagram link",
+        "info": "http:\/\/instagram.com\/shopify"
+      },
+      {
+        "type": "text",
+        "id": "social_snapchat_link",
+        "label": "Snapchat link",
+        "info": "https:\/\/www.snapchat.com\/add\/shopify"
+      },
+      {
+        "type": "text",
+        "id": "social_tumblr_link",
+        "label": "Tumblr link",
+        "info": "http:\/\/shopify.tumblr.com"
+      },
+      {
+        "type": "text",
+        "id": "social_youtube_link",
+        "label": "YouTube link",
+        "info": "https:\/\/www.youtube.com\/shopify"
+      },
+      {
+        "type": "text",
+        "id": "social_vimeo_link",
+        "label": "Vimeo link",
+        "info": "https:\/\/vimeo.com\/shopify"
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon image",
+        "info": "Will be scaled down to 32 x 32px"
+      }
+    ]
+  },
+  {
+    "name": "Cookie banner",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show-cookie-banner",
+        "label": "Show cookie banner",
+        "info": "Enable\/disable custom cookie banner",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "cookie-banner-heading",
+        "label": "Heading",
+        "default": "We value your privacy"
+      },
+      {
+        "type": "richtext",
+        "id": "cookie-text",
+        "label": "Text",
+        "default": "<p>To deliver exceptional quality and service we use Cookies, pixel tracking and anonymized site tracking such a Google Analytics. You can always disable and erase cookies as well as request to review, amen or delete your data.<\/p>"
+      },
+      {
+        "id": "learn-more-link",
+        "type": "url",
+        "label": "Learn more link"
+      },
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo image"
+      }
+    ]
+  },
+  {
+    "name": "Instagram pairing",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Important Instagram user feed setup requires an account authorisation to display your images - [click here](https:\/\/outofthesandbox.com\/pages\/instagram-access-token) for instructions"
+      },
+      {
+        "type": "textarea",
+        "id": "instagram_user_id",
+        "label": "Instagram user id number"
+      },
+      {
+        "type": "textarea",
+        "id": "instagram_access_token",
+        "label": "Instagram access token"
+      }
+    ]
+  }
+]
