@@ -1,8 +1,8 @@
 ## Code from Animalist project
 
-- [Create artwork page app]()
-- [Breed search page app]()
-- [Shopify theme]()
+- [Create artwork page app](https://github.com/anna-maksimenko/animalist/tree/master/artwork-app)
+- [Breed search page app](https://github.com/anna-maksimenko/animalist/tree/master/breed-app)
+- [Shopify theme](https://github.com/anna-maksimenko/animalist/tree/master/theme)
 
 ### Areas related to my field of responsibility:
 - Creating and styling components without/with basic logic

@@ -3,7 +3,7 @@
 ### Areas related to my field of responsibility:
 - Component setup + styling
 - Basic list separation logic 
-- Theme integration (theme/sections/bread-search-section)
+- Theme integration (https://github.com/anna-maksimenko/animalist/blob/master/theme/sections/breeds-search-section.liquid)
 
 ---
 
